@@ -32,6 +32,7 @@ class Essentia < Formula
     build_flags = [
       "--mode=release",
       "--with-examples",
+      "--with-cpptests",
       "--with-vamp",
       "--prefix=#{prefix}"
     ]
