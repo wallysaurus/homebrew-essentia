@@ -33,6 +33,7 @@ class Essentia < Formula
       "--mode=release",
       "--with-examples",
       "--with-vamp",
+      "--with-cpptests",
       "--prefix=#{prefix}"
     ]
 
